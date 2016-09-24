@@ -1,0 +1,272 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+
+
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic);
+
+
+
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+}
+
+h2{
+  border-bottom: 2px solid #333;
+}
+
+span {
+  padding: 5px;
+}
+
+.header-info{
+  text-align: left;
+  margin-top: 20px;
+}
+
+.header-info h1{
+  font-size: 160px;
+  line-height:0.9;
+  margin:0;
+  display:inline;
+}
+
+.header-info h2{
+  color: #3388cc;
+  margin:0;
+  font-size:38px;
+  border-bottom:none;
+  margin-bottom: 5px;
+  margin-top: 30px
+  
+}
+
+.first-name{
+  font-weight:400;
+	
+}
+.last-name{
+  font-weight:100;
+}
+
+.project-entry {
+  margin: 70px 0;
+}
+
+.education-entry
+{
+	margin: 40px 0;
+	padding-top: 5px;
+}
+
+.work-entry
+{
+	margin: 40px 0;
+}
+
+.entry-name,
+.entry-location{
+  font-size: 18px;
+  color:#3388cc;
+	margin: 10px 0;
+}
+span.entry-name,
+span.entry-location{
+  padding: 0;
+}
+
+.entry-title{
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+.entry-date{
+  font-size: 14px;
+	margin: 10px 0;
+	color: #6AA121
+}
+
+.education-entry a{
+  display:inline-block;
+  margin:0;
+}
+
+
+.project-entry:nth-of-type(1)
+{
+	margin-top: 65px;
+}
+
+.project-entry:nth-of-type(2)
+{
+	margin-top: 65px;
+}
+
+.project-entry:nth-of-type(3)
+{
+	margin-top: 65px;
+}
+
+.project-entry 
+{
+	height: 400px;
+	margin-top: 25px;
+}
+
+
+
+
+
+.project-entry .entry-technologies{
+  color:#3388cc;
+margin: 10px 0;
+}
+
+
+.project-entry .entry-technologies .tech{
+  color:#E56717;
+	padding-left: 0px;
+	
+}
+
+
+
+.project-entry .btn{
+  margin: 5px;
+}
+
+.project-entry .btn-info{
+  background: #3388cc;
+  border:0;
+}
+
+.project-entry .btn-info:hover,
+.project-entry .btn-info:focus,
+.project-entry .btn-info:active{
+  background: #14A7D8;
+}
+
+
+#map {
+  display: block;
+  height: 100%;
+}
+
+#mapDiv {
+  height: 400px;
+  width: 100%;
+  padding-bottom: 5%;
+}
+
+@media only screen and (min-width : 320px) {
+  .header-info{
+    text-align: center;
+  }
+  .header-info h1{
+    font-size: 100px;
+  } 
+  .header-info h2{
+    font-size: 24px;
+  }
+
+ 
+   #linkedin
+{
+	padding-top: 3%;
+}
+
+}
+
+@media only screen and (min-width : 485px) {
+  .header-info{
+    text-align: center;
+  }
+  .header-info h1{
+    font-size: 100px;
+  } 
+  .header-info h2{
+    font-size: 24px;
+  }	
+   
+	#linkedin
+{
+	text-align: center;
+	padding-top: 3%;
+}
+	
+}
+
+@media only screen and (min-width : 770px) {
+
+  .header-info{
+    text-align: center;
+  }
+  .header-info h1{
+    font-size: 130px;
+  } 
+  .header-info h2{
+    font-size: 31px;
+  }
+}
+
+@media only screen and (min-width : 990px) {
+  .header-info{
+    text-align: left;
+  }
+  .header-info h1{
+    font-size: 130px;
+  } 
+  .header-info h2{
+    font-size: 31px;
+  }
+
+#linkedin
+{
+	padding-top: 20%;
+}
+
+
+}
+
+@media (min-width: 1200px) {
+  .header-info{
+    text-align: left;
+  }
+  .header-info h1{
+    font-size: 160px;
+  } 
+  .header-info h2{
+    font-size: 38px;
+  }
+
+
+#linkedin
+{
+	text-align: center;
+	padding-top: 20%;
+}
+
+}
+
+
+.background {
+    fill: #FFFFFF;
+    fill-opacity: 0.01;
+}
+
+.native
+{
+	background-color: #2F4F4F;
+}
+
+.fluent
+{
+	background-color: #67b11c;
+}
+
+.deansList
+{
+	font-size: 20px;
+	line-height: 70px;
+	font-weight: 400;
+}
