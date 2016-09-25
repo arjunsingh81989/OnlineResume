@@ -1,4 +1,4 @@
-# OnlineResume: Udacity's Front End NanoDegree Program
+# Online Resume Project: Udacity's Front End NanoDegree Program
 
 Technologies: Bootstap, Javascript, HTML, CSS
 
